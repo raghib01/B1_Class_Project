@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2885923416.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>blog-DataType C</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container text-white">
+          <img src="../img/logo.png" alt="Navigation image">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog list
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./web3.html">WEB 3.O</a></li>
+                  <li><a class="dropdown-item" href="./blockChain.html">Blockchain DEV...</a></li>
+                  <li><a class="dropdown-item" href="../article/programming.html">প্রোগ্রামিং কেন শেখবো ?</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navigation -->
+
+<!-- main section -->
+      <section class="blog-img container mt-5">
+        <div class="row">
+            <a href="../img/data_type.jpg"><img src="../img/data_type.jpg" alt=""></a>
+        </div>
+      </section>
+<!-- article section-->
+    <section class="article mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="mb-3">Getting started</h2>
+                    <div class="link">
+                        <a href="./blockChain.html" class="nav-link"style="font-size: 20px;">BlockChain DEV...</a><br>
+                        <a href="./GoogleFu.html" class="nav-link" style="font-size: 20px;">Google Fu..</a><br>
+                        <a href="./programming.html" class="nav-link" style="font-size: 20px;">প্রোগ্রামিং কেন শেখবো ? </a><br>
+                        <a href="./web3.html" class="nav-link" style="font-size: 20px;">ওয়েব-3.O বা থার্ড জেনারেশন ওয়েব ।</a><br>
+                        <a href="./effectSocial.html" class="nav-link" style="font-size: 20px;">Impact of Social media.</a>    
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h1> DATA TYPE IN C...</h1>
+                    <hr>
+                    <p style="width: 80%;">
+                        ### কথা বলবো C Language এর Data type নিয়ে । <br>
+
+                        ডেটা টাইপ কি ? এর উত্তর খুব ই সহজ । খেয়াল করো, এখানে এর উত্তর পেতে বেশি দূর যেতে হবেনা । ডেটা টাইপ অর্থাৎ তুমি যেই ধরনের ডেটা ইনপুট দিবা তার টাইপ কী হবে , টাইপ বলতে বুঝা যায় ডেটার ধরন । অর্থাৎ তুমি যদি কোন ডেটা পূর্নসংখ্যা দাও তাহলে সেটা C language এ হবে ইন্টিজার টাইপ ডেটা আবার যদি ভগ্নাংশ দাও সেটা হবে ফ্লোট টাইপের ডেটা ইত্যাদি । যেগুলো নিচে আলোচনা করা হয়েছে । <br><br>
+                        
+                        সাধারনত C ভাষার ডেটা টাইপ তিন ধরনের হয়ে থাকে ।
+                        *** যার মধ্যে প্রথমটি হলো Primitive data type . <br>
+                        
+                        এটি আসলে কি ? এটিকে Basic ডেটা টাইপ ও বলা হয় । এর মধ্যে Arithmetic টাইপ যেমন সাধারনত পূর্নসংখ্যা (Integer), ভগ্নাংশ (Float), ও ক্যারেক্টর (charecter) টাইপের ডেটা থাকে । এছাড়াও এখানে void type ডেটা থেকে থাকে । <br>
+                        
+                        # Integer type ডেটা সাধারনত ধনাত্মক পূর্নসংখ্যা ও ঋণাত্মক পূর্নসংখ্যা হয়ে থাকে । এটিও আবার দুই ভাগে হতে পারে যার একটি short Integer ও আরেকটি long Integer . Short int. এ সাধারনত 2 byte বা 16 bit পর্যন্ত জায়গা দখল করে যার formate specifier হচ্ছে %d । আর Long Int. সাধারনত 4 byte বা 32 bit এর হয়ে থাকে যাকে %ld দ্বারা বুঝানো হয় ।
+                        এগুলো নিয়ে বিস্তারিত সামনের কোনো পোষ্ট এ থাকবে । <br><br>
+                        
+                        # দ্বিতীয়ত আসে Float type ডেটা টাইপ।
+                        float হচ্ছে ভগ্নাংশ নাম্বারের জন্য ব্যাবহৃত ডেটা টাইপ । এটিও সাধারনত 3 ধরনের হতে পারে প্রথমটি float যা 4 byte বিশিষ্ট । যার formate specifier হচ্ছে %f ।
+                        এরপরে আছে double যা 8 byte বিশিষ্ট । এবং এটিকে %lf দ্বারা বুঝানো হয় । এরপরে আছে long double যা 16 byte বিশিষ্ট । যাকে %Lf দ্বারা চিন্হিত করা হয় । <br>
+                        
+                        # এরপরে আছে charecter Data type ,
+                        যার স্পেস 1 byte পরিমানে । এবং যার ফরমেট স্পেসিফায়ার হলো %c <br>
+                        
+                        এই প্রতিটি ডেটার জন্য আছে signed & unsigned ফরমেট । যেগুলো নিয়ে ফরমেট মোডিফায়ার অংশে আলোচনা থাকবে । <br>
+                        
+                        # এছাড়া আছে Void data type . যেটি সাধারনত কোন ভ্যালু বা অপারেশন রিপ্রেজেন্ট করে না ।
+                        যা এক ধরনের null data type . <br><br>
+                        
+                        *** দ্বিতীয়ত আছে Derived data type .
+                        এটি হচ্ছে কিছু primitive ডেটা টাইপের সমষ্টি । যা user দ্বারা সঙ্গায়িত করা যায় । যার মধ্যে রয়েছে Array, reference, Union etc.
+                        Array হচ্ছে কালেকশন অফ সেইম ডেটা টাইপ । যেমন একটা পূর্নসংখ্যার সেট {1 , 2, 3, 4, 5} যা একটি Array . এখানে এর মধ্যে সবগুলো ডেটা ইন্টিজার টাইপের । <br>
+                        
+                        *** এবং সবশেষে আছে User-Defined Data type . যা সাধারনত user depndent ডেটা টাইপ । যা সাধারনত ইউজার কাস্টোমাইজ করতে পারে । তাকেই user defined data type বলা হয় । এর মধ্যে সাধারনত function, union, enum, class etc. <br>
+                      
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+<!-- main section end -->
+
+      <!-- footer -->
+      <main class="footer mt-5 container-fluid ">
+        <div class="row bg-info p-3">
+          <div class="col-md-6 col-lg-4" style="text-align:center;">
+            <h2>About</h2>
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eum mollitia non modi, nesciunt ea alias tempore nisi? Impedit, ut. Placeat beatae nobis illum nemo.
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-4 mt-4 ">
+            <div class="footer-icon">
+              <a href="http://facebook.com/binarycare1"><i class="fa-brands fa-facebook"></i></a>
+              <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a href="http://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+              <a href="http://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          </div>
+          <div class="col-lg-4 col-md-12 mt-5">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </main>
+</body>
+</html>

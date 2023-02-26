@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2885923416.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <title>Blog</title>
+</head>
+<body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container text-white">
+        <img src="./img/logo.png" alt="Navigation image">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Blog list
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./article/DataTypeC.html">DATA TYPE IN C...</a></li>
+                  <li><a class="dropdown-item" href="./article/blockChain.html">Blockchain DEV...</a></li>
+                  <li><a class="dropdown-item" href="./article/GoogleFu.html">How to search goole ?</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- article section -->
+
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-lg-3">
+            <div class="card my-3" >
+              <img src="./img/data_type.jpg" class="card-img-top" alt="article 1">
+              <div class="card-body">
+                <h5 class="card-title">DATA TYPE IN C...</h5>
+                <p class="card-text">কথা বলবো C Language এর Data type নিয়ে । ডেটা টাইপ কি ? এর উত্তর খুব ই ....</p>
+                <a href="./article/DataTypeC.html" >Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 ">
+            <div class="card my-3">
+              <img src="./img/pc1.jpg" class="card-img-top" alt="article 1">
+              <div class="card-body">
+                <h5 class="card-title">প্রোগ্রামিং কেন শেখবো ?</h5>
+                <p class="card-text">বর্তমান পৃথিবী প্রযুক্তির পৃথিবী । প্রযুক্তি ছাড়া একটি মুহূর্ত আমরা কল্পনা পারি না । উদাহরন হিসেবে আমাদের ...</p>
+                <a href="./article/programming.html" >Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 ">
+            <div class="card my-3">
+              <img src="./img/blockchain.jpg" class="card-img-top" alt="article 1">
+              <div class="card-body">
+                <h4 class="card-title">Blockchain DEV.</h4>
+                <p class="card-text">তথ্যপ্রযুক্তির এই দিনে এসে ব্লকচেইন প্রযুক্তি নিয়ে না জানাটা এক  বিশাল জ্ঞানঅজ্ঞতা মনে হয় ...</p>
+                <a href="./article1.html" >Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card my-3" >
+              <img src="./img/web-3.jpg" class="card-img-top" alt="article 1">
+              <div class="card-body">
+                <h5 class="card-title">WEB 3.O </h5>
+                <p class="card-text">ওয়েব-3.0 (ওয়েব থ্রি পয়েন্ট ও) বা থার্ড জেনারেশন ওয়েব  কথাটি শোনার সাথে সাথেই আমাদের মাথায় ...</p>
+                <a href="./article/web3.html" >Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+
+      <!-- Recent section -->
+
+        <div class="row mt-5">
+          <h2>Recent Post...</h2>
+          <hr>
+          <div class="col-lg-9">
+            <div class="list-group">
+              <a href="./article/blockChain.html" class="list-group-item list-group-item-action">
+                <div class="d-flex w-100 justify-content-between">
+                  <h4 class="mb-3">ব্লকচেইন ডেভ .</h4>
+                  <small>2 month ago</small>
+                </div>
+                <p class="mb-1">
+                  তথ্যপ্রযুক্তির এই দিনে এসে ব্লকচেইন প্রযুক্তি নিয়ে না জানাটা এক বিশাল জ্ঞানঅজ্ঞতা মনে হয় আমার কাছে । তবে হ্যা এ দেশের অধিকাংশ মানুষ + বর্তমান প্রজন্ম প্রযুক্তি সম্পর্কে জানার থেকে প্রযুক্তি ব্যাবহারে বেশি পারদর্শী । এর ফলে তারা নিজ থেকে প্রযুক্তি ব্যাবহারে পারদর্শী বুঝলেও আসলে প্রযুক্তি ই...
+                </p>
+                <small class="text-info" >Click here to read more >></small>
+              </a>
+              <a href="./article/programming.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">প্রোগ্রামিং কেন শেখবো ?</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">
+                  বর্তমান পৃথিবী প্রযুক্তির পৃথিবী । প্রযুক্তি ছাড়া একটি মুহূর্ত আমরা কল্পনা করতে পারি না । উদাহরন হিসেবে আমাদের সকাল থেকে ঘুমানোর আগে পর্যন্ত প্রতিটি ক্ষেত্রেই আমাদের টেকনোলজির দ্বারস্থ হতে হয় । টেকনোলজি ছাড়া আমরা 
+                </p>
+                <small class="text-info" >Click here to read more >></small>
+              </a>
+              <a href="./article/DataTypeC.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">DATA TYPE IN C...</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">
+                  ডেটা টাইপ কি ? এর উত্তর খুব ই সহজ । খেয়াল করো, এখানে এর উত্তর পেতে বেশি দূর যেতে হবেনা । ডেটা টাইপ অর্থাৎ তুমি যেই ধরনের ডেটা ইনপুট দিবা তার টাইপ কী হবে , টাইপ বলতে বুঝা যায় ডেটার ধরন । অর্থাৎ তুমি যদি কোন ডেটা পূর্নসংখ্যা দাও তাহলে সেটা...
+                </p>
+                <small class="text-info" >Click here to read more >></small>
+              </a>
+              <a  href="./article/GoogleFu.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">How to search Google ?</h5>
+                  <small>3 days ago</small>
+                </div>
+                <p class="mb-1">
+                  একজন ব্যক্তি Google সার্চ করে অল্প সময়ের মধ্যেই কাঙ্ক্ষিত ফলাফল পাওয়ার যোগ্যতাকে Google Fu বলা হয়। যেই ব্যক্তির Google Fu যোগ্যতা যতো বেশি, গুগল সার্চে তিনি ততো বেশি স্মার্ট। আজকে আমরা দেখবো- কিভাবে স্মার্ট পদ্ধতিতে Google সার্চ করা যায়।
+                </p>
+                <small class="text-info">Click here to read more >></small>
+              </a>
+              <a href="./article/web3.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">ওয়েব-3.O বা থার্ড জেনারেশন ওয়েব ।</h5>
+                  <small>7 days ago</small>
+                </div>
+                <p class="mb-1">
+                  ওয়েব-3.0 কথাটি শোনার সাথে সাথেই আমাদের মাথায় সর্বপ্রথম যেই শব্দটি আসে তা হলো কি এই ওয়েব-3.0 ? <br>
+                  এর মূল concept হলো ইন্টারনেট কে সম্পূর্ণ রুপে Decentralised করে ফেলা  । আচ্ছা যেহেতু শুরু করেই ফেলেছি তাহলে এবার একটু ভালোভাবেই বুঝে নেয়া যাক ।
+                </p>
+                <small class="text-info" >Click here to read more >></small>
+              </a>
+              <a href="./article/effectSocial.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Impact of Social media.</h5>
+                  <small>29 days ago</small>
+                </div>
+                <p class="mb-1">
+                  সোশ্যাল মিডিয়ায় মাধ্যমে আমাদের মস্তিষ্ক থেকে যেভাবে ডোপামিন রিলিজ করে আমাদের নিয়ন্ত্রণ করছেন 
+                  আপনি কি জানেন ফেসবুকের Founding president Developer (Sean Parker) বলেছেন যখন আমি ফেসবুকে আমি Davolpe করে ছিলাম তখন আসল উদ্দেশ্য ছিল কিভাবে মানুষকে সোশাল মিডিয়ার মানুষকে বেধে রাখতে পারি।
+                </p>
+                <small class="text-info" >Click here to read more >></small>
+              </a>
+              <a href="./article/effectSocial.html" class="list-group-item list-group-item-action mt-2">
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">Impact of Social media.</h5>
+                  <small>9 days ago</small>
+                </div>
+                <p class="mb-1">
+                  সোশ্যাল মিডিয়ায় মাধ্যমে আমাদের মস্তিষ্ক থেকে যেভাবে ডোপামিন রিলিজ করে আমাদের নিয়ন্ত্রণ করছেন 
+                  আপনি কি জানেন ফেসবুকের Founding president Developer…. Sean Parker বলেছেন যখন আমি ফেসবুকে আমি Davolpe করে...
+                  </p> 
+                </p>
+                <small class="text-info">Click here to read more >></small>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-5">
+            <h3 class="text-center mb-5">Advertisement</h3>
+           <img class="img-fluid w-100 mt-3" src="./img/pc3.jpg" alt="">
+           <img class="img-fluid w-100 mt-3" src="./img/pc3.jpg" alt="">
+           <img class="img-fluid w-100 mt-3" src="./img/pc3.jpg" alt="">
+          </div>
+        </div>
+
+    </div>
+      <!-- footer -->
+
+        <main class="footer mt-5 container-fluid ">
+          <div class="row bg-info p-3">
+            <div class="col-md-6 col-lg-4" style="text-align:center;">
+              <h2>About</h2>
+              <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed eum mollitia non modi, nesciunt ea alias tempore nisi? Impedit, ut. Placeat beatae nobis illum nemo.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-4 mt-4 ">
+              <div class="footer-icon">
+                <a href="http://facebook.com/binarycare1"><i class="fa-brands fa-facebook"></i></a>
+                <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                <a href="http://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mt-5">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </main>
+</body>
+</html>
